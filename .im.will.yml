@@ -168,8 +168,8 @@ build :
       doc : 1
       default : 0
     steps :
-      - step::page.open
       - step::server.start
+      - step::page.open
 
   default :
     criterion :
