@@ -165,7 +165,7 @@ step :
 
   doc.generate :
     currentPath : .
-    shell : "node {path::wdoc.exec} .generate {path::out.sources.js} outPath:{path::out.doc} useWillForManuals : 1"
+    shell : "node {path::wdoc.exec} .generate {path::out.sources.js} outPath:{path::out.doc} useWillForManuals:1"
 
   doc.docsify.run :
     currentPath : path::out.doc
