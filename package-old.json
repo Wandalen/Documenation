@@ -1,0 +1,8 @@
+{
+  "enabled": 0,
+  "dependencies": {
+    "express": "",
+    "wdocgenerator": ""
+  },
+  "devDependencies": {}
+}
