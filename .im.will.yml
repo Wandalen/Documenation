@@ -22,7 +22,7 @@ submodule :
   ArraySparse : git+https:///github.com/Wandalen/wArraySparse.git/out/wArraySparse#master
   ExternalFundamentals : git+https:///github.com/Wandalen/wExternalFundamentals.git/out/wExternalFundamentals#master
   UriFundamentals : git+https:///github.com/Wandalen/wUriFundamentals.git/out/wUriFundamentals#master
-  Comparator : git+https:///github.com/Wandalen/wComparator.git/out/wComparator#master
+  Comparator : git+https:///github.com/Wandalen/wEqualer.git/out/wEqualer#master
 
   LookerExtra : git+https:///github.com/Wandalen/wLookerExtra.git/out/wLookerExtra#master
   Traverser : git+https:///github.com/Wandalen/wTraverser.git/out/wTraverser#master
