@@ -34,12 +34,12 @@
 ### <a name="remote-submodule"></a> Віддалений підмодуль  
 **Віддалений підмодуль** - модуль, який знаходиться на віддаленому сервері, для використання завантажується на локальну машину. Завантажені віддалені підмодулі знаходяться в директорії `.module` в кореневому каталозі `will-файлa`.  
 Для встановлення віддаленого підмодуля вказується ресурс з URL-шляхом до модуля в секції `submodule` та завантажується фразою `will .submodules.download` в консолі операційної системи з кореневої директорії `will-файла`.  
-Приклад секції `submodule` з віддаленими підмодулями `Tools` i `PathFundamentals`:  
+Приклад секції `submodule` з віддаленими підмодулями `Tools` i `PathBasic`:  
 
 ```yaml
 submodule :
     Tools : git+https:///github.com/Wandalen/wTools.git/out/wTools#master
-    PathFundamentals : git+https:///github.com/Wandalen/wPathFundamentals.git/out/wPathFundamentals#master
+    PathBasic : git+https:///github.com/Wandalen/wPathBasic.git/out/wPathBasic#master
     Color : npm:///wColor/out/wColor#0.3.102
 
 ```

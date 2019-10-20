@@ -29,13 +29,13 @@ about :
 
 submodule :
 
-  PathFundamentals : git+https:///github.com/Wandalen/wPathFundamentals.git/out/wPathFundamentals#master
+  PathBasic : git+https:///github.com/Wandalen/wPathBasic.git/out/wPathBasic#master
   localOne : ./local.modules/localOne/
   localTwo : ./local.modules/localTwo/out/local
 
 ```
 
-Для порівняння роботи команд з віддаленими і локальними підмодулями введено віддалений ресурс `PathFundamentals`.  
+Для порівняння роботи команд з віддаленими і локальними підмодулями введено віддалений ресурс `PathBasic`.  
 Для файла `.im.will.yml` використаємо лістинг `.will.ymml` з туторілу [Експортування модуля](ExportedWillFile.md):
 
 <details>
@@ -77,8 +77,8 @@ build :
 ```
 [user@user ~]$ will .submodules.list
 ...
-submodule::PathFundamentals
-  path : git+https:///github.com/Wandalen/wPathFundamentals.git/out/wPathFundamentals#master
+submodule::PathBasic
+  path : git+https:///github.com/Wandalen/wPathBasic.git/out/wPathBasic#master
   isDownloaded : false
   Exported builds : []
 submodule::localOne
@@ -97,7 +97,7 @@ submodule::localTwo
 ```
 [user@user ~]$ will .submodules.download
 ...
-   + module::PathFundamentals was downloaded in 4.872s
+   + module::PathBasic was downloaded in 4.872s
  + 1/3 submodule(s) of module::local.import were downloaded in 4.877s
 
 ``` 
@@ -117,8 +117,8 @@ drwxr-xr-x 4 user user 4096 Мар 12 13:27 .module
 ```
 [user@user ~]$ will .submodules.list
 ...
-submodule::PathFundamentals
-  path : git+https:///github.com/Wandalen/wPathFundamentals.git/out/wPathFundamentals#master
+submodule::PathBasic
+  path : git+https:///github.com/Wandalen/wPathBasic.git/out/wPathBasic#master
   isDownloaded : true
   Exported builds : [ 'proto.export' ]
 submodule::localOne

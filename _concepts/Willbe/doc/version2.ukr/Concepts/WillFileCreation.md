@@ -42,7 +42,7 @@ about :
     keywords :
         - willbe
     interpreters:
-        - nodejs >= 6.0.0
+        - nodejs >= 8.0.0
 ```
 
 _Починати роботу з заповнення секції `about` є доброю практикою, адже, ця інформація дозволяє іншим користувачам легко отримати загальні дані про модуль, а також адміністувати його в довготривалій перспективі._  
@@ -85,7 +85,7 @@ about :
     keywords :
         - willbe
     interpreters:
-        - nodejs >= 6.0.0
+        - nodejs >= 8.0.0
 
 submodule :
 
@@ -127,7 +127,7 @@ submodule::Tools
 ```
 [user@user ~]$ will .submodules.upgrade
 ...
-. Read : /path_to_file/.module/PathFundamentals/out/wTools.out.will.yml
+. Read : /path_to_file/.module/PathBasic/out/wTools.out.will.yml
 + module::Tools was upgraded in 15.133s
 + 1/1 submodule(s) of module::first were upgraded in 15.138s
 

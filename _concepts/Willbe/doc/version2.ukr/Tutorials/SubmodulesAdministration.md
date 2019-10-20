@@ -19,7 +19,7 @@ submodule :
     Tools :
        path : git+https:///github.com/Wandalen/wTools.git/out/wTools#master
        description : 'Import willbe tools'  
-    PathFundamentals : git+https:///github.com/Wandalen/wPathFundamentals.git/out/wPathFundamentals#master
+    PathBasic : git+https:///github.com/Wandalen/wPathBasic.git/out/wPathBasic#master
 
 ```
 
@@ -45,8 +45,8 @@ second
 ...
    . Read : /path_to_file/.module/Tools/out/wTools.out.will.yml
    + module::Tools was downloaded in 15.421s
-   . Read : /path_to_file/.module/PathFundamentals/out/wPathFundamentals.out.will.yml
-   + module::PathFundamentals was downloaded in 3.606s
+   . Read : /path_to_file/.module/PathBasic/out/wPathBasic.out.will.yml
+   + module::PathBasic was downloaded in 3.606s
  + 2/2 submodule(s) of module::upgradeAndClean were downloaded in 19.035s
 
 ```  
@@ -57,7 +57,7 @@ second
 second
    ├── .module
    │      ├── Tools
-   │      └── PathFundamentals
+   │      └── PathBasic
    └── .will.yml
 
 ```
@@ -73,8 +73,8 @@ submodule::Tools
   isDownloaded : true
   Exported builds : [ 'proto.export' ]
 
-submodule::PathFundamentals
-  path : git+https:///github.com/Wandalen/wPathFundamentals.git/out/wPathFundamentals#master
+submodule::PathBasic
+  path : git+https:///github.com/Wandalen/wPathBasic.git/out/wPathBasic#master
   isDownloaded : true
   Exported builds : [ 'proto.export' ]
 
@@ -104,7 +104,7 @@ submodule::PathFundamentals
 .
 ├── .module
 │      ├── Tools
-│      └── PathFundamentals
+│      └── PathBasic
 └── .will.yml
 
 ```
