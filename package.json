@@ -1,6 +1,6 @@
 {
   "enabled" : 0, 
-  "dependencies" : { "express" : "", "wdocgenerator" : "" }, 
+  "dependencies" : { "express" : "", "wdocgenerator" : "beta" }, 
   "devDependencies" : {}, 
   "version" : "0.0.1"
 }
