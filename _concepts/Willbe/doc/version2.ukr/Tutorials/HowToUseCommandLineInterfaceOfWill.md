@@ -167,7 +167,7 @@ Request ".held .build"
 
  * Application
 Current path : /[path]
-Exec path : /usr/bin/node /usr/lib/node_modules/willbe/proto/dwtools/atop/will/MainTop.s .held .build
+Exec path : /usr/bin/node /usr/lib/node_modules/willbe/proto/wtools/atop/will/MainTop.s .held .build
 
 Unknown subject ".held"
 Try subject ".help"   
@@ -339,7 +339,7 @@ About
   enabled : 1
 
 Paths
-  predefined.willbe : '/usr/lib/node_modules/willbe/proto/dwtools/atop/will/Exec' 
+  predefined.willbe : '/usr/lib/node_modules/willbe/proto/wtools/atop/will/Exec' 
   predefined.will.files : '/path_to_file/.will.yml' 
   predefined.dir : '/path_to_file' 
   proto : './proto'

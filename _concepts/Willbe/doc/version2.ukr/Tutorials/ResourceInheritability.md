@@ -121,7 +121,7 @@ inheritability
       ├── one
       │    └── one.will.yml
       ├── out
-      │    └── dwtools 
+      │    └── wtools 
       └── .will.yml
 
 ```

@@ -8,7 +8,7 @@
 ```
 wSomeModule                                                         # назва модуля, починається з "w"
      ├── proto                                                      # загальноприйнята директорія, де поміщається модуль
-     │     └── dwtools                                              # директорія модуля з файлом "Tools.s"
+     │     └── wtools                                              # директорія модуля з файлом "Tools.s"
      │            ├── atop                                          #
      │            │     ├── someModuleName                          # директорія з файлами модуля
      │            │     │         └── module_files_and_directories  # файли і директорії модуля (розглянуто нижче)
@@ -23,7 +23,7 @@ wSomeModule                                                         # назва
 ```  
 
 В рамках компанії, модулі мають назву, яка починаєтьс з літери "w" та має продовження відповідно до призначення модуля. В директорії `proto` знаходиться модуль. Файл `Tools.s` - конструктор модуля. В директорії `atop` поміщені файли модуля.  
-Структура модуля може бути простою та складною. На наступному рисунку показана проста конфігурація (шлях '/wSomeModule/proto/dwtools/atop/'):  
+Структура модуля може бути простою та складною. На наступному рисунку показана проста конфігурація (шлях '/wSomeModule/proto/wtools/atop/'):  
 
 ```
 someModuleName                  # назва модуля
@@ -32,7 +32,7 @@ someModuleName                  # назва модуля
      ├── fileOfModule.s         #
 
 ```
-Проста конфігурація - файли модуля поміщені в директорію за шляхом '/wSomeModule/proto/dwtools/atop/someModuleName/'. Складна конфігурація від простої наявністю рівнів - розділення функціональностей модуля за пріоритетом. Приклад складної конфігурації з двома рівнями:  
+Проста конфігурація - файли модуля поміщені в директорію за шляхом '/wSomeModule/proto/wtools/atop/someModuleName/'. Складна конфігурація від простої наявністю рівнів - розділення функціональностей модуля за пріоритетом. Приклад складної конфігурації з двома рівнями:  
 
 ```
 someModuleName                  # назва модуля
@@ -66,7 +66,7 @@ var x = some_value;
 var y = some_value;
 
 // конструктор функції
-var Self = function wNameFunction( argument )
+let Self = function wNameFunction( argument )
 {
   return constructor( arguments );
 }
@@ -210,7 +210,7 @@ if( typeof module !== 'undefined' )
 
   //
 
-  var _ = _global_.wTools; // змінна, що необхідна для роботи модулів
+  let _ = _global_.wTools; // змінна, що необхідна для роботи модулів
 
 }
 
@@ -233,7 +233,7 @@ var y = some.value;
 
 ```js
 // секція глобальних змінних і конструктор функції
-var Self = function wNameFunction( argument )
+let Self = function wNameFunction( argument )
 {
   return constructor( arguments );
 }

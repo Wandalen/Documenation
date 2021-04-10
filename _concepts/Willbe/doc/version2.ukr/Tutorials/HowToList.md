@@ -78,7 +78,7 @@ About
   enabled : 1
 
 Paths
-  predefined.willbe : '/usr/lib/node_modules/willbe/proto/dwtools/atop/will/Exec' 
+  predefined.willbe : '/usr/lib/node_modules/willbe/proto/wtools/atop/will/Exec' 
   predefined.will.files : '/path_to_file/.will.yml' 
   predefined.dir : '/path_to_file' 
   proto : './proto' 

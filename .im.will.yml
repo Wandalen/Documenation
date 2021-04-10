@@ -47,12 +47,12 @@ submodule :
   StateSession : git+https:///github.com/Wandalen/wStateSession.git/out/wStateSession#master
   PathTranslator : git+https:///github.com/Wandalen/wPathTranslator.git/out/wPathTranslator#master
   FileExecutor : git+https:///github.com/Wandalen/wFileExecutor.git/out/wFileExecutor#master
-  TranspilationStrategy : git+https:///github.com/Wandalen/wTranspilationStrategy.git/out/wTranspilationStrategy#master
+  TranspilationStrategy : git+https:///github.com/Wandalen/wTranspile.git/out/wTranspile#master
   NameMapper : git+https:///github.com/Wandalen/wNameMapper.git/out/wNameMapper#master
   TemplateTreeResolver : git+https:///github.com/Wandalen/wTemplateTreeResolver.git/out/wTemplateTreeResolver#master
   TemplateTreeEnvironment : git+https:///github.com/Wandalen/wTemplateTreeEnvironment.git/out/wTemplateTreeEnvironment#master
   TemplateFileWriter : git+https:///github.com/Wandalen/wTemplateFileWriter.git/out/wTemplateFileWriter#master
-  Graph : git+https:///github.com/Wandalen/wGraphBase.git/out/wGraphBase#master
+  Graph : git+https:///github.com/Wandalen/wGraphExtra.git/out/wGraphExtra#master
   Communicator : git+https:///github.com/Wandalen/wCommunicator.git/out/wCommunicator#master
   Starter : git+https:///github.com/Wandalen/wStarter.git/out/wStarter#master
 
@@ -65,7 +65,7 @@ submodule :
   MathVector : git+https:///github.com/Wandalen/wMathVector.git/out/wMathVector#master
   Maker : git+https:///github.com/Wandalen/wMaker.git/out/wMaker#master
   LoggerFromAnsiToCss : git+https:///github.com/Wandalen/wLoggerFromAnsiToCss.git/out/wLoggerFromAnsiToCss#master
-  MathConcepts : git+https:///github.com/Wandalen/wMathConcepts.git/out/wMathConcepts#master
+  MathModels : git+https:///github.com/Wandalen/wMathModels.git/out/wMathModels#master
   LoggerToFile : git+https:///github.com/Wandalen/wLoggerToFile.git/out/wLoggerToFile#master
   DomBase : git+https:///github.com/Wandalen/wDomBase.git/out/wDomBase#master
   EntityFundamentals : git+https:///github.com/Wandalen/wEntityFundamentals.git/out/wEntityFundamentals#master
@@ -101,7 +101,7 @@ path :
   out.doc : out/doc
   concepts : out/concepts
   tutorials : out/tutorials
-  wdoc.exec : node_modules/wdocgenerator/proto/dwtools/atop/docgen/Exec2
+  wdoc.exec : node_modules/wdocgenerator/proto/wtools/atop/docgen/Exec2
   temp : [ out, node_modules, package-lock.json ]
 
 reflector :
